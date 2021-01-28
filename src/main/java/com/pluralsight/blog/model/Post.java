@@ -20,6 +20,7 @@ public class Post {
     @Temporal(TemporalType.DATE)
     private Date date;
 
+    @ManyToOne
     private Category category;
 
     public Post() {
